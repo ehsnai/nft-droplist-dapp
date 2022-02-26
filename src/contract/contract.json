@@ -1,0 +1,346 @@
+{
+    "address": "0x17b89874a39825e21c2836ade12e08e8d312db92",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "inputs": [
+                {
+                    "components": [
+                        {
+                            "internalType": "string",
+                            "name": "imageUrl",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "name",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "description",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "social_1",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "social_2",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "website",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "price",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "supply",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "presale",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "sale",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint8",
+                            "name": "chain",
+                            "type": "uint8"
+                        },
+                        {
+                            "internalType": "bool",
+                            "name": "approved",
+                            "type": "bool"
+                        }
+                    ],
+                    "internalType": "struct hunter.Drop",
+                    "name": "_drop",
+                    "type": "tuple"
+                }
+            ],
+            "name": "addDrop",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_index",
+                    "type": "uint256"
+                }
+            ],
+            "name": "aproveDrops",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "drops",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "imageUrl",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "social_1",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "social_2",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "website",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "price",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "supply",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "presale",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "sale",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint8",
+                    "name": "chain",
+                    "type": "uint8"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "approved",
+                    "type": "bool"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getDrops",
+            "outputs": [
+                {
+                    "components": [
+                        {
+                            "internalType": "string",
+                            "name": "imageUrl",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "name",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "description",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "social_1",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "social_2",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "website",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "price",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "supply",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "presale",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "sale",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint8",
+                            "name": "chain",
+                            "type": "uint8"
+                        },
+                        {
+                            "internalType": "bool",
+                            "name": "approved",
+                            "type": "bool"
+                        }
+                    ],
+                    "internalType": "struct hunter.Drop[]",
+                    "name": "",
+                    "type": "tuple[]"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "_index",
+                    "type": "uint256"
+                },
+                {
+                    "components": [
+                        {
+                            "internalType": "string",
+                            "name": "imageUrl",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "name",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "description",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "social_1",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "social_2",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "website",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "string",
+                            "name": "price",
+                            "type": "string"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "supply",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "presale",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "sale",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint8",
+                            "name": "chain",
+                            "type": "uint8"
+                        },
+                        {
+                            "internalType": "bool",
+                            "name": "approved",
+                            "type": "bool"
+                        }
+                    ],
+                    "internalType": "struct hunter.Drop",
+                    "name": "_drop",
+                    "type": "tuple"
+                }
+            ],
+            "name": "updateDrop",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "users",
+            "outputs": [
+                {
+                    "internalType": "address",
+                    "name": "",
+                    "type": "address"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+}
